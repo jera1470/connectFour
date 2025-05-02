@@ -1,0 +1,126 @@
+
+
+
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #2196F3, #0D47A1);
+    -fx-font-family: "Comic Sans MS", cursive;
+    -fx-font-size: 14px;
+    -fx-text-fill: #212121;
+}
+
+
+.header {
+    -fx-background-color: rgba(255, 255, 255, 0.3);
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+}
+
+.vs-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+
+.game-board {
+    -fx-background-color: #2196F3;
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5, 0, 0, 1);
+}
+
+.board-cell {
+    -fx-background-color: white;
+    -fx-background-radius: 50%;
+    -fx-border-color: #0D47A1;
+    -fx-border-radius: 50%;
+    -fx-border-width: 2;
+}
+
+
+.chat-panel {
+    -fx-background-color: linear-gradient(to bottom, #FFEB3B, #FFC107);
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5, 0, 0, 1);
+}
+
+.chat-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3E2723;
+}
+
+.text-area {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-background-radius: 5;
+    -fx-border-color: #FF8A65;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+    -fx-text-fill: #3E2723;
+    -fx-font-family: "Comic Sans MS", cursive;
+}
+
+.text-area .content {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+}
+
+.text-field {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-background-radius: 5;
+    -fx-border-color: #FF8A65;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+    -fx-padding: 5;
+    -fx-text-fill: #3E2723;
+    -fx-font-family: "Comic Sans MS", cursive;
+}
+
+.text-field:focused {
+    -fx-background-color: white;
+    -fx-border-color: #FF5722;
+}
+
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #FFEB3B, #FF5722);
+    -fx-text-fill: #3E2723;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #3E2723;
+    -fx-border-width: 1;
+    -fx-padding: 8 15 8 15;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #FFD54F, #FF7043);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5, 0, 0, 1);
+}
+
+.button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #FFC107, #F4511E);
+}
+
+
+.drop-button {
+    -fx-background-color: linear-gradient(to bottom, #FFEB3B, #FF5722);
+    -fx-text-fill: #3E2723;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #3E2723;
+    -fx-border-width: 1;
+}
+
+
+.status-label {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-background-radius: 5;
+    -fx-padding: 8;
+    -fx-text-fill: #FFEB3B; 
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}

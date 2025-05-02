@@ -1,0 +1,81 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #FFEB3B, #FF5722);
+    -fx-font-family: "Comic Sans MS", cursive;
+    -fx-font-size: 14px;
+    -fx-text-fill: #3E2723;
+}
+
+.title-label {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3E2723;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);
+}
+
+.tab-pane {
+    -fx-tab-min-width: 100px;
+}
+
+.tab {
+    -fx-background-color: #FFCC80;
+    -fx-background-radius: 5 5 0 0;
+}
+
+.tab:selected {
+    -fx-background-color: #FF8A65;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: transparent;
+}
+
+.tab .tab-label {
+    -fx-text-fill: #3E2723;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-text-fill: #3E2723;
+    -fx-font-weight: bold;
+}
+
+.text-field, .password-field {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-background-radius: 5;
+    -fx-border-color: #FF8A65;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+    -fx-padding: 5;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-background-color: white;
+    -fx-border-color: #FF5722;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #FFEB3B, #FF5722);
+    -fx-text-fill: #3E2723;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #3E2723;
+    -fx-border-width: 1;
+    -fx-padding: 8 15 8 15;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #FFD54F, #FF7043);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 5, 0, 0, 1);
+}
+
+.button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #FFC107, #F4511E);
+}
+
+.status-label {
+    -fx-text-fill: #D32F2F;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
